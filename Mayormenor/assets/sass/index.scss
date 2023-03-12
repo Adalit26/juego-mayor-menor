@@ -1,3 +1,9 @@
+$coloraqua:aqua;
+$colorblack:black;
+$colorwhite:white;
+$colorred:red;
+$colorblue:blue;
+$coloryellow:yellow;
 body{
     background-image: url(../images/font2.png);
     background-repeat: no-repeat;
@@ -23,6 +29,23 @@ body{
     border-radius: 10px;
     margin-right: 5px;
     padding-top: 45px;
+    h2{
+        width: 40px;
+        height: 50px;
+        display: flex;
+        flex-wrap: wrap-reverse;
+        justify-content: center;
+        border: $colorred solid 1px;
+        background-image: url(../images/me.jpg);
+
+        background-size: 100% ;
+        background-position: center;
+        color: $colorred;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 30px;
+        -webkit-text-stroke: 1px $colorblue;
+        margin: 5px;
+    }
 }
 .dadosn7{
     float:left;
@@ -30,9 +53,23 @@ body{
     display: flex;
     flex-wrap: wrap-reverse;
     justify-content:right;
-    border: rgb(11, 243, 231) solid 2px;
+    border: $coloraqua solid 2px;
     border-radius: 15px;
-
+    h2{
+        width: 40px;
+        height: 50px;
+        display: flex;
+        flex-wrap: wrap-reverse;
+        justify-content: center;
+        border: $colorblack solid 1px;
+        background-image: url(../images/casa.jpg);
+        background-size: 100% ;
+        background-position: center;
+        color: $colorwhite ;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 35px;
+        -webkit-text-stroke: 1px $coloryellow;
+    }
 }
 .numerosMa{
     float: left;
@@ -43,59 +80,22 @@ body{
     border-radius: 10px;
     margin-left: 5px;
     padding-top: 45px;
-
-}
-
-.menf{
-    width: 40px;
-    height: 50px;
-    display: flex;
-    flex-wrap: wrap-reverse;
-    justify-content: center;
-    border: black solid 1px;
-    background-image: url(../images/me.jpg);
-
-    background-size: 100% ;
-    background-position: center;
-    color:white;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 30px;
-    -webkit-text-stroke: 1px rgb(0, 47, 255);
-    margin: 5px;
-
-}
-.mayf{
-    width: 40px;
-    height: 50px;
-    display: flex;
-    flex-wrap: wrap-reverse;
-    justify-content: center;
-    border: black solid 1px;
-    background-image: url(../images/ma.jpg);
-    background-size: 100% ;
-    background-position: center;
-    color:white;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 29px;
-    -webkit-text-stroke: 1px red;
-    margin: 5px;
-
-}
-.casf{
-    width: 40px;
-    height: 50px;
-    display: flex;
-    flex-wrap: wrap-reverse;
-    justify-content: center;
-    border: black solid 1px;
-    background-image: url(../images/casa.jpg);
-    background-size: 100% ;
-    background-position: center;
-    color:white ;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 35px;
-    -webkit-text-stroke: 1px rgb(250, 246, 14);
-    
+    h2{
+        width: 40px;
+        height: 50px;
+        display: flex;
+        flex-wrap: wrap-reverse;
+        justify-content: center;
+        border: $colorblack solid 1px;
+        background-image: url(../images/ma.jpg);
+        background-size: 100% ;
+        background-position: center;
+        color: $colorwhite;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 29px;
+        -webkit-text-stroke: 1px $colorred;
+        margin: 5px;
+    }
 }
 .casa{
     height: 10px;

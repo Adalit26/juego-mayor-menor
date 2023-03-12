@@ -25,6 +25,22 @@ body {
   margin-right: 5px;
   padding-top: 45px;
 }
+.numerosMe h2 {
+  width: 40px;
+  height: 50px;
+  display: flex;
+  flex-wrap: wrap-reverse;
+  justify-content: center;
+  border: red solid 1px;
+  background-image: url(../images/me.jpg);
+  background-size: 100%;
+  background-position: center;
+  color: red;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 30px;
+  -webkit-text-stroke: 1px blue;
+  margin: 5px;
+}
 
 .dadosn7 {
   float: left;
@@ -32,8 +48,23 @@ body {
   display: flex;
   flex-wrap: wrap-reverse;
   justify-content: right;
-  border: rgb(11, 243, 231) solid 2px;
+  border: aqua solid 2px;
   border-radius: 15px;
+}
+.dadosn7 h2 {
+  width: 40px;
+  height: 50px;
+  display: flex;
+  flex-wrap: wrap-reverse;
+  justify-content: center;
+  border: black solid 1px;
+  background-image: url(../images/casa.jpg);
+  background-size: 100%;
+  background-position: center;
+  color: white;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 35px;
+  -webkit-text-stroke: 1px yellow;
 }
 
 .numerosMa {
@@ -46,25 +77,7 @@ body {
   margin-left: 5px;
   padding-top: 45px;
 }
-
-.menf {
-  width: 40px;
-  height: 50px;
-  display: flex;
-  flex-wrap: wrap-reverse;
-  justify-content: center;
-  border: black solid 1px;
-  background-image: url(../images/me.jpg);
-  background-size: 100%;
-  background-position: center;
-  color: white;
-  font-family: Georgia, "Times New Roman", Times, serif;
-  font-size: 30px;
-  -webkit-text-stroke: 1px rgb(0, 47, 255);
-  margin: 5px;
-}
-
-.mayf {
+.numerosMa h2 {
   width: 40px;
   height: 50px;
   display: flex;
@@ -79,22 +92,6 @@ body {
   font-size: 29px;
   -webkit-text-stroke: 1px red;
   margin: 5px;
-}
-
-.casf {
-  width: 40px;
-  height: 50px;
-  display: flex;
-  flex-wrap: wrap-reverse;
-  justify-content: center;
-  border: black solid 1px;
-  background-image: url(../images/casa.jpg);
-  background-size: 100%;
-  background-position: center;
-  color: white;
-  font-family: Georgia, "Times New Roman", Times, serif;
-  font-size: 35px;
-  -webkit-text-stroke: 1px rgb(250, 246, 14);
 }
 
 .casa {
