@@ -20,22 +20,55 @@ function lanzardados() {
     document.getElementById("ImgDado2").src="assets/images/dados/"+dado2+".svg";    
     document.getElementById("SumaDados").innerHTML = suma;
     if(suma==7){
-        alert("Gana la Casa");
+        Swal.fire({
+          position: 'center',
+          icon: 'success',
+          title: '¡¡GANA LA CASA!!',
+          showConfirmButton: false,
+          timer: 1500
+        })
     }
     if (suma > 0 && suma < 7 && document.getElementById("menoradio").checked) {
-        alert("Ganaste");
+        // alert("Ganaste");
+        Swal.fire({
+          position: 'center',
+          icon: 'success',
+          title: '¡¡FELICIDADES GANASTE!!',
+          showConfirmButton: false,
+          timer: 1500
+        })
     }
     else if(suma > 7 && suma < 13 && document.getElementById("mayoradio").checked)
     {
-        alert("Ganaste");
+        // alert("Ganaste");
+        Swal.fire({
+          position: 'center',
+          icon: 'success',
+          title: '¡¡FELICIDADES GANASTE!!',
+          showConfirmButton: false,
+          timer: 1500
+        })
     }
     else if(suma > 7 && suma < 13 && document.getElementById("menoradio").checked)
     {
-        alert("Perdiste");
+       Swal.fire({
+          position: 'center',
+          icon: 'warning',
+          title: '¡¡PERDISTE!!',
+          showConfirmButton: false,
+          timer: 1500
+        })
     }
     else if(suma > 0 && suma < 7 && document.getElementById("mayoradio").checked)
     {
-        alert("Perdiste");
+        // alert("Perdiste");
+        Swal.fire({
+          position: 'center',
+          icon: 'warning',
+          title: '¡¡PERDISTE!!',
+          showConfirmButton: false,
+          timer: 1500
+        })
     }
     //$('#ImgDado1').attr("src", "../img/dados/"+dado1+".svg");
     //$('#SumaDados').html(suma);
