@@ -1,0 +1,108 @@
+body {
+  background-image: url(../images/fobo.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 95% 100%;
+  background-position: center;
+  display: flex;
+  flex-wrap: wrap-reverse;
+  justify-content: center;
+}
+
+.conten {
+  width: 50%;
+  padding-left: 100px;
+  margin-top: 25%;
+}
+
+.numerosMe {
+  float: left;
+  width: 25%;
+  display: flex;
+  flex-wrap: wrap-reverse;
+  justify-content: center;
+  border-radius: 10px;
+  margin-right: 5px;
+  padding-top: 45px;
+}
+
+.dadosn7 {
+  float: left;
+  width: 35%;
+  display: flex;
+  flex-wrap: wrap-reverse;
+  justify-content: right;
+  border: rgb(11, 243, 231) solid 2px;
+  border-radius: 15px;
+}
+
+.numerosMa {
+  float: left;
+  width: 25%;
+  display: flex;
+  flex-wrap: wrap-reverse;
+  justify-content: center;
+  border-radius: 10px;
+  margin-left: 5px;
+  padding-top: 45px;
+}
+
+.menf {
+  width: 40px;
+  height: 50px;
+  display: flex;
+  flex-wrap: wrap-reverse;
+  justify-content: center;
+  border: black solid 1px;
+  background-image: url(../images/me.jpg);
+  background-size: 100%;
+  background-position: center;
+  color: white;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 30px;
+  -webkit-text-stroke: 1px rgb(0, 47, 255);
+  margin: 5px;
+}
+
+.mayf {
+  width: 40px;
+  height: 50px;
+  display: flex;
+  flex-wrap: wrap-reverse;
+  justify-content: center;
+  border: black solid 1px;
+  background-image: url(../images/ma.jpg);
+  background-size: 100%;
+  background-position: center;
+  color: white;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 29px;
+  -webkit-text-stroke: 1px red;
+  margin: 5px;
+}
+
+.casf {
+  width: 40px;
+  height: 50px;
+  display: flex;
+  flex-wrap: wrap-reverse;
+  justify-content: center;
+  border: black solid 1px;
+  background-image: url(../images/casa.jpg);
+  background-size: 100%;
+  background-position: center;
+  color: white;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 35px;
+  -webkit-text-stroke: 1px rgb(250, 246, 14);
+}
+
+.casa {
+  height: 10px;
+  font-size: 20px;
+}
+
+.bosu {
+  width: 20px;
+  height: 30px;
+}/*# sourceMappingURL=index.css.map */
