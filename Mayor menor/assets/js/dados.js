@@ -16,8 +16,8 @@ function lanzardados() {
             });
         }
     }); 
-    document.getElementById("ImgDado1").src="../../assets/images/dados/"+dado1+".svg";
-    document.getElementById("ImgDado2").src="../images/dados/"+dado2+".svg";    
+    document.getElementById("ImgDado1").src="assets/images/dados/"+dado1+".svg";
+    document.getElementById("ImgDado2").src="assets/images/dados/"+dado2+".svg";    
     document.getElementById("SumaDados").innerHTML = suma;
     if(suma==7){
         alert("Gana la Casa");
