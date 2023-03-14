@@ -1,23 +1,23 @@
 console.log("hola desde dados");
 function lanzardados() {
-    let dado1 =   Math.floor(Math.random() * 6)+1;
-    let dado2 =   Math.floor(Math.random() * 6)+1;
-    let suma = dado1 + dado2;
+    let dados1 =   Math.floor(Math.random() * 6)+1;
+    let dados2 =   Math.floor(Math.random() * 6)+1;
+    let suma = dados1 + dados2;
 
     $({ deg: 0 }).animate({ deg: 360 }, {
         duration: 600,
         step: function (now) {
             var scale = (1 * now / 360);
-            $('#ImgDado1').css({
+            $('#ImgDados1').css({
                 transform: 'rotate(' + now + 'deg) scale(' + scale + ')'
             });
-            $('#ImgDado2').css({
+            $('#ImgDados2').css({
                 transform: 'rotate(' + now + 'deg) scale(' + scale + ')'
             });
         }
     }); 
-    document.getElementById("ImgDado1").src="assets/images/dados/"+dado1+".svg";
-    document.getElementById("ImgDado2").src="assets/images/dados/"+dado2+".svg";    
+    document.getElementById("ImgDados1").src="assets/images/dados/"+dados1+".svg";
+    document.getElementById("ImgDados2").src="assets/images/dados/"+dados2+".svg";    
     document.getElementById("SumaDados").innerHTML = suma;
     if(suma==7){
         Swal.fire({
@@ -70,7 +70,7 @@ function lanzardados() {
           timer: 1500
         })
     }
-    //$('#ImgDado1').attr("src", "../img/dados/"+dado1+".svg");
+    //$('#ImgDados1').attr("src", "../img/dados/"+dados1+".svg");
     //$('#SumaDados').html(suma);
     
 }
